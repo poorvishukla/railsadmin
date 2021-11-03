@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  default_url_options :host => "app-activeadmin.herokuapp.com"
  
   devise_for :users
   root 'homes#index'
