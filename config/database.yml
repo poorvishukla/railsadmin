@@ -7,20 +7,3 @@ development:
   username: myapp
   password: 12345678
 
-test:
-  adapter: postgresql
-  encoding: unicode
-  host: localhost
-  database: testapp
-  pool: 5
-  username: myapp
-  password: 12345678
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  host: localhost
-  database: testapp
-  pool: 5
-  username: myapp
-  password: 12345678
